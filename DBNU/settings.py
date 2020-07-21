@@ -21,16 +21,14 @@ DJANGO_ROOT = os.path.dirname(os.path.realpath(django.__file__))
 SITE_ROOT = os.path.dirname(os.path.realpath(__file__))
 
 # Load sensitive data from gitignore'd json file
-print("Loading sensitive data...")
 with open(BASE_DIR+'/DBNU/sensitive.json') as sensitive_json:
     SENSITIVE_DATA = json.load(sensitive_json)
-print("... done loading sensitive data.")
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = SENSITIVE_DATA['sensitive']['SECRET_KEY']
+SECRET_KEY = os.environ['DBNU_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
