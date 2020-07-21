@@ -22,7 +22,7 @@ SITE_ROOT = os.path.dirname(os.path.realpath(__file__))
 
 # Load sensitive data from gitignore'd json file
 print("Loading sensitive data...")
-with open(BASE_DIR+'/DBNU/settings.json') as sensitive_json:
+with open(BASE_DIR+'/DBNU/sensitive.json') as sensitive_json:
     SENSITIVE_DATA = json.load(sensitive_json)
 print("... done loading sensitive data.")
 
