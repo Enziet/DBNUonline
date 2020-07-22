@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "dbnu", "dbnu.njsproj", "{01255DF4-FD47-4B20-B6E9-BC4EDC79C88C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01255DF4-FD47-4B20-B6E9-BC4EDC79C88C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01255DF4-FD47-4B20-B6E9-BC4EDC79C88C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01255DF4-FD47-4B20-B6E9-BC4EDC79C88C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01255DF4-FD47-4B20-B6E9-BC4EDC79C88C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCB696CA-49D5-4899-933F-3E61FD1A8E8C}
+	EndGlobalSection
+EndGlobal
