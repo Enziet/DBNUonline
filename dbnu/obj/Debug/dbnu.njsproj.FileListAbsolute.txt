@@ -1,2 +1,3 @@
 C:\Projects\DBNU\dbnu\obj\Debug\dbnu.njsproj.CoreCompileInputs.cache
 C:\Projects\DBNU\dbnu\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Projects\DBNU\dbnu\obj\Debug\dbnu.njsprojAssemblyReference.cache
